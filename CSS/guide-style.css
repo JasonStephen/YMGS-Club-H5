@@ -1,0 +1,74 @@
+/* 文本内容 */
+.text-guide1
+{
+    font-size:18px;
+    line-height: 0px;
+    padding:0px 5px;
+}
+
+.guide-high-light
+{
+    color:#fc5fc5 !important;
+}
+
+
+/* DIV窗口内容 */
+.div-guide1-lv1/* 最外侧的div */
+{
+    min-width: 1280px;
+    height: 96px;
+    background-color: #252525;
+}
+
+.div-guide1-lv2/* 第二层div */
+{
+    width:1280px;
+    height:96px;
+}
+
+.div-guide1-menu/* 导航菜单*/
+{
+    width:auto;
+    height:32px;
+    float:right;
+    margin:32px 32px 0 0;
+}
+
+.text-guide1:hover
+{
+    color:#ff8fd8;
+}
+
+/* 导航部分 */
+
+.div-guide1-menu li
+{
+    float:left;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.div-guide1-menu a
+{
+    width: auto;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    text-align:right;
+    text-decoration: none;
+    color: white ;
+}
+/* 导航栏更改模式 date 11.13 by:LU*/
+
+/* DIV控件内容 */
+.img-logo-main/*顶栏的LOGO*/
+{
+    width: 192px;
+    height: 64px;
+    float:left;
+    margin: 16px 0 0 64px;
+}
+
+
+
+/* 其他内容 */

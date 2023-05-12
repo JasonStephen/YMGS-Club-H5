@@ -1,0 +1,147 @@
+/* Main Index */
+/* Line1 */
+.p-main-index-1l
+{
+    background-image: url(../Pictures/Content/main-index/1-1.png);
+}
+
+.p-main-index-1m
+{
+    background-image: url(../Pictures/Content/main-index/1-2.png);
+}
+
+.p-main-index-1r
+{
+    background-image: url(../Pictures/Content/main-index/1-3.png);
+}
+/* Line2 */
+.p-main-index-2l
+{
+    background-image: url(../Pictures/Content/main-index/2-1.png);
+}
+
+.p-main-index-2r
+{
+    background-image: url(../Pictures/Content/main-index/2-2.png);
+}
+/* Line3 */
+.p-main-index-31
+{
+    background-image: url(../Pictures/Content/main-index/3-1.png);
+}
+
+.p-main-index-32
+{
+    background-image: url(../Pictures/Content/main-index/3-2.png);
+}
+
+.p-main-index-33
+{
+    background-image: url(../Pictures/Content/main-index/3-3.png);
+}
+
+.p-main-index-34
+{
+    background-image: url(../Pictures/Content/main-index/3-4.png);
+}
+
+.p-main-index-35
+{
+    background-image: url(../Pictures/Content/main-index/3-5.png);
+}
+
+/* Line4 */
+.p-main-index-41
+{
+    width:292px;
+    background-image: url(../Pictures/Content/main-index/4-1.png);
+}
+
+.p-main-index-42
+{
+    width:292px;
+    background-image: url(../Pictures/Content/main-index/4-2.png);
+}
+
+
+
+/* Main News */
+.p-main-news-head
+{
+    min-width:1280px;
+    height:480px;
+    background-color:#282828;
+}
+
+.p-main-news-1u
+{
+    background-image: url(../Pictures/Content/main-news/1-1.png);
+}
+
+.p-main-news-21
+{
+    background-image: url(../Pictures/Content/main-news/2-1.png);
+}
+
+.p-main-news-22
+{
+    background-image: url(../Pictures/Content/main-news/2-2.png);
+}
+
+.p-main-news-23
+{
+    background-image: url(../Pictures/Content/main-news/2-3.png);
+}
+
+.p-main-news-24
+{
+    background-image: url(../Pictures/Content/main-news/2-4.png);
+}
+
+
+
+
+/* Main Activity */
+.p-main-activity-head
+{
+    min-width:1280px;
+    height:480px;
+    background-image: url(../Pictures/Content/main-activity/head.png);
+}
+
+/* Line1 */
+.p-main-activity-1l
+{
+    background-image: url(../Pictures/Content/main-activity/1-1.png);
+}
+
+.p-main-activity-1m
+{
+    background-image: url(../Pictures/Content/main-activity/1-2.png);
+}
+
+.p-main-activity-1r
+{
+    background-image: url(../Pictures/Content/main-activity/1-3.png);
+}
+
+/* Line2 */
+.p-main-activity-21
+{
+    background-image: url(../Pictures/Content/main-activity/2-1.png);
+}
+
+.p-main-activity-22
+{
+    background-image: url(../Pictures/Content/main-activity/2-2.png);
+}
+
+.p-main-activity-23
+{
+    background-image: url(../Pictures/Content/main-activity/2-3.png);
+}
+
+.p-main-activity-24
+{
+    background-image: url(../Pictures/Content/main-activity/2-4.png);
+}

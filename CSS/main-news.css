@@ -1,0 +1,262 @@
+/* 图片区域 */
+.div-main-news-main
+{
+    min-width: 1280px;
+    height: 360px;
+    text-align: center;
+}
+
+.div-main-news-main h1
+{
+    position: relative;
+    top: 148px;
+    font-size: 32px;
+    margin: 0px;
+    color:white;
+}
+
+.div-main-news-main p
+{
+    font-size: 20px;
+    margin: 0px;
+    position: relative;
+    top: 200px;
+    color:white;
+    font-weight: bolder;
+}
+
+/* 二级导航栏 */
+.div-main-news-menu-lv0
+{
+    min-width:1280px;
+    height: 48px;
+    background-color: #282828;
+}
+
+.div-main-news-menu
+{
+    width: 1280px;
+    height: 48px;
+}
+
+.div-main-news-menu ul
+{
+    position: relative;
+    margin:0 20%;
+    top:14px;
+}
+
+.div-main-news-menu li
+{
+    float: left;
+    list-style-type: none;
+    margin-inline: 30px;
+}
+
+
+.div-main-news-menu-search
+{
+    position: relative;
+    top:14px;
+    float: right;
+    right: 0%;
+    margin-inline: 10px;
+    border: 0px;
+}
+
+.div-main-news-menu-search b
+{
+    color: white;
+}
+
+.div-main-news-menu-search b:hover
+{
+    color: #fc5fc5;
+}
+
+.div-main-news-menu a:hover
+{
+    color: #fc5fc5;
+}
+
+
+/* 活动板块 */
+.div-main-newsarea-lv1
+{
+    min-width: 1280px;
+    height: 1300px;
+    background-color: #2b2b2b;
+}
+
+.div-main-newsarea-lv2
+{
+    width: 1280px;
+    height: 1300px;
+}
+
+.div-main-newsarea-lv3
+{
+    width: 1280px;
+    height: auto;
+    margin-top:28px;
+}
+
+.main-news-h1
+{
+    font-size:28px;
+    text-align: center;
+    padding-top:28px;
+}
+
+/* 第一个 */
+.div-main-newsarea-lv4
+{
+    width: 1000px;
+    height: auto;
+    background-color: #333333;
+}
+
+.main-news-area1
+{
+    height: 360px;
+    width: 1000px;
+    position: relative;
+    left: 140px;
+}
+
+.main-news-area-picture1
+{
+    height: 240px;
+    width: 1000px;
+}
+
+.main-news-area-word1
+{
+    height: 120px;
+    width: 1000px;
+}
+
+.main-news-area1 h1
+{
+    margin-top: 10px;
+    text-align: center;
+    font-size:24px;
+    color:#fc5fc5;
+}
+
+.main-news-area1 h2
+{
+    font-size:16px;
+    text-align: center;
+}
+
+.main-news-area1 p
+{
+    margin-left: 13px;
+    font-size:13px;
+    float: left;
+    clear: left;
+}
+
+
+/* 下面四个 */
+.div-main-newsarea-lv4-samll
+{
+    width: 478px;
+    height: auto;
+}
+
+.main-news-area2
+{
+    height: 360px;
+    width: 478px;
+    position: relative;
+    left: 140px;
+}
+
+.main-news-area-picture2
+{
+    height: 240px;
+    width: 478px;
+}
+
+.main-news-area-word2
+{
+    height: 120px;
+    width: 478px;
+}
+
+.main-news-area2 h1
+{
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size:24px;
+    color:#fc5fc5;
+}
+
+.main-news-area2 h2
+{
+    margin-left: 13px;
+    font-size:16px;
+}
+
+.main-news-area2 p
+{
+    margin-left: 13px;
+    font-size:13px;
+}
+
+.main-news-area2-left
+{
+    float: left;
+}
+
+.main-news-area2-right
+{
+    float: left;
+    margin-left: 44px;
+}
+
+/* 转页部分 */
+.main-news-page-lv1
+{
+    min-width:1280px;
+    height: 64px;
+    background-color: #252525;
+    text-align: center;
+}
+
+.main-news-page-lv2
+{
+    width: 1280px;
+}
+
+.main-news-page-lv3
+{
+    width: 340px;
+    margin-inline: auto ;
+}
+
+.main-news-page-lv1 ul
+{
+    line-height: 60px;
+}
+
+.main-news-page-lv1 li
+{
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.main-news-page-lv1 a
+{
+    text-decoration-line: none;
+}
+
+.main-news-page-lv1 a:hover
+{
+    color: #fc5fc5;
+}

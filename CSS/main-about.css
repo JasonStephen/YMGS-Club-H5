@@ -1,0 +1,38 @@
+/* About文字预设区域 */
+.main-about-h1
+{
+    font-size:28px;
+    text-align: center;
+    padding-top:64px;
+}
+
+.main-about-t
+{
+    font-size:18px;
+    text-align: center;
+}
+/* DIV控件区域 */
+.div-about-lv1
+{
+    min-width: 1280px;
+    height:560px;
+    background-color: #2b2b2b;
+}
+
+.div-about-lv2/* 这一层负责存放文本的内容 */
+{
+    width:640px;
+    height:auto;
+    position:relative;
+    top:64px;
+    margin: 10px auto;
+}
+
+/* 图片区域 */
+.div-img-about
+{
+    min-width:1280px;
+    height: 240px;
+    background-image: url(../Pictures/Cover/YMGSCLUB_3840x720.png);
+}
+

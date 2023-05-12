@@ -1,0 +1,17 @@
+.text-below
+{
+    font-size:8px;
+    text-align: center;
+    position: relative;
+    top:24px;
+}
+
+
+/* 最底层的内容 */
+.div-below-lv1/* 最外侧的div */
+{
+    min-width: 1280px;
+    height: 96px;
+    background-color: #252525;
+}
+

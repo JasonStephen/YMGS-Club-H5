@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 必须的CSS -->
+    <link href="./CSS/system.css" rel="stylesheet" type="text/css">
+    <link href="./CSS/guide-style.css" rel="stylesheet" type="text/css">
+    <link href="./CSS/below.css" rel="stylesheet" type="text/css">
+    <link href="./CSS/pictures.css" rel="stylesheet" type="text/css">
+    <!-- 本页区域需要的css -->
+    <link href="./CSS/main-activity.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="./CSS/轮播图.css">
+    <script src="./Script/feedback.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- 导航栏部分↓ -->
+    <div class="div-guide1-lv1">
+        <div class="default-position-1 div-guide1-lv2">
+            <a href="main-index.html" data-image-width="192" data-image-height="64" title="YuanMeng Game Club">
+                <img src="./Pictures/Logo/Logo_384x128.png" class="img-center img-logo-main">
+            </a>
+            <ul class="div-guide1-menu">
+                <li><a class="t1-zh text-guide1" href="main-about.html">关于我们</a></li>
+                <li><a class="t1-zh text-guide1" href="main-news.html">新闻栏目</a></li>
+                <li><a class="t1-zh text-guide1 guide-high-light">社区活动</a></li>
+                <li><a class="t1-zh text-guide1" onclick="Expect()">板块导航</a></li>
+                <li><a class="t1-zh text-guide1" href="main-join.html">加入我们</a></li>
+            </ul>
+        </div>
+    </div>
+   
+    <!-- 图片部分 -->
+    <div class="img-center div-main-activity-main p-main-activity-head">
+        <div class="all" id="all">
+            <div class="screen" id="screen">
+                    <ul id="ul">
+                        <li><img src="./Pictures/Content/main-activity/3-1.png" width="1280px" height="360px" /></li>
+                        <li><img src="./Pictures/Content/main-activity/3-2.png" width="1280px" height="360px" /></li>
+                        <li><img src="./Pictures/Content/main-activity/3-3.png" width="1280px" height="360px" /></li>
+                        <!-- <li><img src="./Pictures/test/微信图片_20221116202549.png" width="1280px" height="360px" /></li>
+                        <li><img src="./Pictures/test/微信图片_20221116202554.png" width="1280px" height="360px" /></li> -->
+
+                        <!-- 上限5张图片，具体要使用几张就放几张 -->
+
+                    </ul>
+                    <ol></ol>
+                    <div id="arr">
+                        <span id="left"><</span>
+                        <span id="right">></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- 正在进行的活动 -->
+    <div class="div-main-activity-news-lv1">
+        <div class="default-position-1 div-main-activity-news-lv2"><!-- 自适应中间 -->
+            <p class="t1-zh text-fix1 main-activity-h1">正在进行的活动</p>
+            <!-- 内容↓ -->
+            <div class="default-position-1 div-main-activity-news-lv3"><!-- 内容区域360*360 -->
+                <!-- 区域1 -->
+                <div class="div-main-activity-news-lv4 div-main-activity-news-left">
+                    <div class=" main-activity-news-area debug-div img-center p-main-activity-1l">
+                        <p class="t1-zh text-fix1 main-activity-news-area-h1">自由如风，遨游欧洲</p>
+                    </div>
+                    <p class="t1-zh text-fix1 main-activity-news-area-h2">开放联运正在进行中，欢迎您的加入</p>
+                </div>
+                <!-- 区域2 -->
+                <div class="div-main-activity-news-lv4 div-main-activity-news-center">
+                    <div class="main-activity-news-area debug-div img-center p-main-activity-1m">
+                        <p class="t1-zh text-fix1 main-activity-news-area-h1">开辟新地，筑城家园</p>
+                    </div>
+                    <p class="t1-zh text-fix1 main-activity-news-area-h2">我们正在征集出色的风景照片，分享你的成果吧</p>
+                </div>
+                <!-- 区域3 -->
+                <div class="div-main-activity-news-lv4 div-main-activity-news-right">
+                    <div class="main-activity-news-area debug-div img-center p-main-activity-1r">
+                        <p class="t1-zh text-fix1 main-activity-news-area-h1">未知世界，即将开启</p>
+                    </div>
+                    <p class="t1-zh text-fix1 main-activity-news-area-h2">新版本更新，让我们来探索全新的内容吧</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 即将开始的活动 -->
+    <div class="div-main-activityarea-lv1">
+        <div class="default-position-1 div-main-activityarea-lv2"><!-- 自适应中间 -->
+            <p class="t1-zh text-fix1 main-activity-h1">即将开始的活动</p>
+            <div class="default-position-1 div-main-activityarea-lv3">
+                <div class="div-main-activityarea-lv4 main-activityarea-area2 main-activityarea-area2-left">
+                    <div class="main-activityarea-area-picture2 debug-div img-center p-main-activity-21">
+                    </div>
+                    <div class="main-activityarea-area-word2">
+                        <h1 class="t1-zh text-fix1">为我们站点出谋划策</h1>
+                        <h2 class="t1-zh text-fix1">在这里接纳大家的建议，来不断发展我们的网站</h2>
+                        <p class="t1-zh text-fix1">标签：YMGS CLUB</p>
+                        <p class="t1-zh text-fix1">开始时间：2022.11.20</p>
+                    </div>
+                </div>
+                <div class="div-main-activityarea-lv4 main-activityarea-area2 main-activityarea-area2-right">
+                    <div class="main-activityarea-area-picture2 debug-div img-center p-main-activity-22">
+                    </div>
+                    <div class="main-activityarea-area-word2">
+                        <h1 class="t1-zh text-fix1">迎新年，元旦联运</h1>
+                        <h2 class="t1-zh text-fix1">2022即将过去，2023正在向我们招手，来吧...</h2>
+                        <p class="t1-zh text-fix1">标签：SCS Software, TruckersMP</p>
+                        <p class="t1-zh text-fix1">开始时间：2023.1.1</p>
+                    </div>
+                </div>
+                <div class="div-main-activityarea-lv4 main-activityarea-area2 main-activityarea-area2-left">
+                    <div class="main-activityarea-area-picture2 debug-div img-center p-main-activity-23">
+                    </div>
+                    <div class="main-activityarea-area-word2">
+                        <h1 class="t1-zh text-fix1">秋季竞速，迎接冬季</h1>
+                        <h2 class="t1-zh text-fix1">秋风过去，冬季即将来临，让我们重温这...</h2>
+                        <p class="t1-zh text-fix1">标签：Forza Horizon 4</p>
+                        <p class="t1-zh text-fix1">开始时间：2022.12.1</p>
+                    </div>
+                </div>
+                <div class="div-main-activityarea-lv4 main-activityarea-area2 main-activityarea-area2-right">
+                    <div class="main-activityarea-area-picture2 debug-div img-center p-main-activity-24">
+                    </div>
+                    <div class="main-activityarea-area-word2">
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- 转页 -->
+    <div class="main-activity-page-lv1">
+        <div class="default-position-1 main-activity-page-lv2">
+           <div class="default-position-1 main-activity-page-lv3 ">
+                <ul class="text-fix1">
+                    <li><a class="t1-zh" href="">上一页</a></li>
+                    <li><p class="text-fix1 t1-zh">当前页面1/1</p></li>
+                    <li><a class="t1-zh" href="">下一页</a></li>
+                </ul>
+           </div>
+        </div>
+    </div>
+
+    <!-- 底部内容 -->
+    <footer class="default-position-1 div-below-lv1">
+        <p class="default-position-1 t1-zh-nb text-below">Copyright ©2022 YuanMeng Game Simulation Club.</p>
+        <p class="default-position-1 t1-zh-nb text-below">All Rights Reserved.</p>
+        <p class="default-position-1 t1-zh-nb text-below">Designed by Jason</p>
+    </footer>
+</body>
+</html>
+
+<!-- 轮播图功能实现编码 -->
+<script>
+    var box=document.getElementById("all");
+    var ul=box.children[0].children[0];
+    var ol=box.children[0].children[1];
+    var ulLiArr = ul.children;
+    //2.补齐相互盒子
+        //1.复制第一张图片所在的li，填入所在的ul中。
+    var newLi = ulLiArr[0].cloneNode(true);
+    ul.appendChild(newLi);
+        //2.生成相关的ol中的li。
+    for(var i=0;i<ulLiArr.length-1;i++)
+    {
+        var newOlLi = document.createElement("li");
+        newOlLi.innerHTML = i+1;
+        ol.appendChild(newOlLi);
+    }
+
+    //3.点亮第一个ol中的li。
+    var olLiArr = ol.children;
+    ol.children[0].className = "current";
+    //3.鼠标放到小方块儿上，轮播图片。
+    for(var i=0;i<olLiArr.length;i++)
+    {
+        olLiArr[i].index = i;
+        olLiArr[i].onmouseover = function ()
+        {
+            for(var j=0;j<olLiArr.length;j++)
+            {
+                olLiArr[j].className = "";
+            }
+            olLiArr[this.index].className = "current";
+            animate(ul,-this.index*ul.children[0].offsetWidth);
+            key = square = this.index;
+        }
+    }
+    //4.添加定时器。
+    var timer = null;
+    var key = 0;
+    var square = 0;
+    timer = setInterval(autoPlay,5000);
+
+
+    function autoPlay()
+    {
+        key++;
+        square++;
+        if(key>olLiArr.length){
+            key=1;
+            ul.style.left = 0;
+        }
+        animate(ul,-key*ul.children[0].offsetWidth);
+
+
+        square = square>olLiArr.length-1?0:square;
+        for(var j=0;j<olLiArr.length;j++){
+            olLiArr[j].className = "";
+        }
+        olLiArr[square].className = "current";
+    }
+    //5.鼠标移开开启定时器，鼠标放上去开启定时器。
+    box.onmouseover = function ()
+    {
+        clearInterval(timer);
+    }
+    box.onmouseout = function ()
+    {
+        timer = setInterval(autoPlay,5000);
+    }
+
+    //6.左右切换的按钮。
+    var btnArr = box.children[0].children[2].children;
+    btnArr[0].onclick = function ()
+    {
+        key--;
+        square--;
+        if(key<0)
+        {
+            key=4;
+            ul.style.left = -5*ul.children[0].offsetWidth + "px";
+        }
+        animate(ul,-key*ul.children[0].offsetWidth);
+
+
+        square = square<0?olLiArr.length-1:square;
+        for(var j=0;j<olLiArr.length;j++)
+        {
+            olLiArr[j].className = "";
+        }
+        olLiArr[square].className = "current";
+    }
+    btnArr[1].onclick = function ()
+    {
+        autoPlay();
+    }
+
+    //  基本封装
+    function animate(obj,target)
+    {
+        clearInterval(obj.timer);
+        var speed = obj.offsetLeft < target ? 15 : -15;
+        obj.timer = setInterval(function()
+        {
+            var result = target - obj.offsetLeft;
+            obj.style.left = obj.offsetLeft + speed  + "px";
+            if(Math.abs(result) <= 15)
+            {
+                obj.style.left = target + "px";
+                clearInterval(obj.timer);
+            }
+        },10);
+    }
+</script>

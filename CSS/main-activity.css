@@ -1,0 +1,226 @@
+/* 图片区域 */
+.div-main-activity-main
+{
+    min-width: 1280px;
+    height: 360px;
+    text-align: center;
+}
+
+.div-main-activity-main h1
+{
+    position: relative;
+    top: 148px;
+    font-size: 32px;
+    margin: 0px;
+    color:white;
+}
+
+.div-main-activity-main p
+{
+    font-size: 20px;
+    margin: 0px;
+    position: relative;
+    top: 200px;
+    color:white;
+    font-weight: bolder;
+}
+
+/* 每个板块的标题 */
+.main-activity-h1
+{
+    font-size:28px;
+    text-align: center;
+    padding-top:28px;
+}
+
+
+/* 已经开始的活动消息 */
+.div-main-activity-news-lv1
+{
+    min-width: 1280px;
+    height: 500px;
+    background-color: #2b2b2b;
+}
+
+.div-main-activity-news-lv2
+{
+    width: 1280px;
+    height: 500px;
+}
+
+.div-main-activity-news-lv3
+{
+    width: 1280px;
+    height: auto;
+    margin-top:28px;
+}
+
+.div-main-activity-news-lv4
+{
+    width: 360px;
+    height: auto;
+}
+
+.main-activity-news-area
+{
+    height: 360px;
+    width: 360px;
+}
+
+.div-main-activity-news-left
+{
+    float:left;
+    margin-left: 48px;
+}
+
+.div-main-activity-news-center
+{
+    float:left;
+    margin-left: 52px;
+}
+
+.div-main-activity-news-right
+{
+    float:right;
+    margin-right: 48px;
+}
+
+.main-activity-news-area-h1
+{
+    font-size:24px;
+    float: left;
+    position: relative;
+    margin-top: 316px;
+    margin-left: 16px;
+}
+
+.main-activity-news-area-h2
+{
+    font-size:16px;
+    position: relative;
+    margin-top: 16px;
+    text-align: center;
+}
+
+
+/* 活动板块 */
+.div-main-activityarea-lv1
+{
+    min-width: 1280px;
+    height: 812px;
+    background-color: #2b2b2b;
+}
+
+.div-main-activityarea-lv2
+{
+    width: 1280px;
+    height: 812px;
+}
+
+.div-main-activityarea-lv3
+{
+    width: 1280px;
+    height: auto;
+    margin-top:28px;
+}
+
+.div-main-activityarea-lv4
+{
+    width: 478px;
+    height: auto;
+}
+
+.main-activityarea-area2
+{
+    height: 360px;
+    width: 478px;
+    position: relative;
+    left: 140px;
+}
+
+.main-activityarea-area-picture2
+{
+    height: 240px;
+    width: 478px;
+}
+
+.main-activityarea-area-word2
+{
+    height: 120px;
+    width: 478px;
+}
+
+.main-activityarea-area2 h1
+{
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size:24px;
+    color:#fc5fc5;
+}
+
+.main-activityarea-area2 h2
+{
+    margin-left: 13px;
+    font-size:16px;
+}
+
+.main-activityarea-area2 p
+{
+    margin-left: 13px;
+    font-size:13px;
+}
+
+.main-activityarea-area2-left
+{
+    float: left;
+}
+
+.main-activityarea-area2-right
+{
+    float: left;
+    margin-left: 44px;
+}
+
+/* 转页部分 */
+.main-activity-page-lv1
+{
+    min-width:1280px;
+    height: 64px;
+    background-color: #252525;
+    text-align: center;
+}
+
+.main-activity-page-lv2
+{
+    width: 1280px;
+}
+
+.main-activity-page-lv3
+{
+    width: 340px;
+    margin-inline: auto ;
+}
+
+.main-activity-page-lv1 ul
+{
+    line-height: 60px;
+}
+
+.main-activity-page-lv1 li
+{
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.main-activity-page-lv1 a
+{
+    text-decoration-line: none;
+}
+
+.main-activity-page-lv1 a:hover
+{
+    color: #fc5fc5;
+}

@@ -1,0 +1,241 @@
+
+
+/* 主页图片部分 */
+.div-main-index-main
+{
+    min-width:1280px;
+    height: 480px;
+    background-image: url(../Pictures/Cover/YMGSCLUB_3840x1280.png);
+}
+
+/* 每个板块的标题 */
+.main-index-h1
+{
+    font-size:28px;
+    text-align: center;
+    padding-top:28px;
+}
+
+
+/* 最新资讯 */
+.div-main-index-news-lv1
+{
+    min-width: 1280px;
+    height: 500px;
+    background-color: #2b2b2b;
+}
+
+.div-main-index-news-lv2
+{
+    width: 1280px;
+    height: 500px;
+}
+
+.div-main-index-news-lv3
+{
+    width: 1280px;
+    height: auto;
+    margin-top:28px;
+}
+
+.div-main-index-news-lv4
+{
+    width: 360px;
+    height: auto;
+}
+
+.main-index-news-area
+{
+    height: 360px;
+    width: 360px;
+}
+
+.div-main-index-news-left
+{
+    float:left;
+    margin-left: 48px;
+}
+
+.div-main-index-news-center
+{
+    float:left;
+    margin-left: 52px;
+}
+
+.div-main-index-news-right
+{
+    float:right;
+    margin-right: 48px;
+}
+
+
+.main-index-news-area-h1
+{
+    font-size:24px;
+    float: left;
+    position: relative;
+    margin-top: 316px;
+    margin-left: 16px;
+    color:rgb(24, 24, 24);
+}
+
+.main-index-news-area-h2
+{
+    font-size:16px;
+    position: relative;
+    margin-top: 16px;
+    text-align: center;
+}
+
+
+/* 最新活动 */
+.div-main-index-activity-lv1
+{
+    min-width: 1280px;
+    height: 500px;
+    background-color: #2b2b2b;
+}
+
+.div-main-index-activity-lv2
+{
+    width: 1280px;
+    height: 500px;
+}
+
+.div-main-index-activity-lv3
+{
+    width: 1280px;
+    height: auto;
+    margin-top:28px;
+}
+
+.div-main-index-activity-lv4
+{
+    width: 540px;
+    height: auto;
+}
+
+.div-main-index-activity-left
+{
+    float:left;
+    margin-left: 48px;
+}
+
+.div-main-index-activity-right
+{
+    float:right;
+    margin-right: 48px;
+}
+
+.main-index-activity-area
+{
+    height: 360px;
+    width: 540px;
+}
+
+.main-index-activity-area-h1
+{
+    font-size:24px;
+    float: left;
+    position: relative;
+    margin-top: 316px;
+    margin-left: 16px;
+    color:rgb(24, 24, 24);
+}
+
+.main-index-activity-area-h2
+{
+    font-size:16px;
+    position: relative;
+    margin-top: 16px;
+    text-align: center;
+}
+
+/* 关于我们 */
+.div-main-index-about-lv1
+{
+    min-width: 1280px;
+    height: 320px;
+    background-color: #2b2b2b;
+}
+
+.div-main-index-about-lv2
+{
+    width: 1280px;
+    height: 320px;
+}
+
+.div-main-index-about-lv3
+{
+    width: 1280px;
+    height: auto;
+    margin-top:28px;
+}
+
+.div-main-index-about-lv4
+{
+    width: 192px;
+    height: auto;
+}
+
+.div-main-index-about-left1
+{
+    float:left;
+    margin-left: 48px;
+}
+
+.div-main-index-about-left2
+{
+    float:left;
+    margin-left: 56px;
+}
+
+.div-main-index-about-right
+{
+    float:right;
+    margin-right: 48px;
+}
+
+.main-index-about-area
+{
+    height: 192px;
+    width: 192px;
+}
+
+.main-index-about-area-h2
+{
+    font-size:16px;
+    position: relative;
+    margin-top: 16px;
+    text-align: center;
+}
+
+
+/* 合作伙伴 */
+.div-main-index-cooper-lv1
+{
+    min-width: 1280px;
+    height: 180px;
+    background-color: #2b2b2b;
+}
+
+.div-main-index-cooper-lv2
+{
+    width: 1280px;
+    height: 180px;
+}
+
+.div-main-index-cooper-h1
+{
+    font-size:20px;
+    padding-top:28px;
+    padding-left:72px;
+}
+
+.main-index-cooper-p1
+{
+    height: 64px;
+    float:left;
+    margin-top: 28px;
+    margin-left: 36px;
+}

@@ -1,0 +1,58 @@
+html, body
+{
+    margin:0;
+}
+
+.text-fix1
+{
+    margin:0;
+}
+
+.default-position-1
+{
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    
+}
+
+.img-center/*图片定位*/
+{
+    object-fit: cover;/* 宽高自适应 */
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;/* 图片位置定位 */
+    background-repeat: no-repeat;
+}
+
+.t1-zh/* 所有文字的默认颜色和样式设计 */
+{
+    font-family: "微软雅黑" !important;
+    font-family: "宋体";
+    color: white;
+    font-weight: bolder;
+}
+
+.t1-zh-nb/* 所有文字的默认颜色和样式设计 */
+{
+    font-family: "微软雅黑" !important;
+    font-family: "宋体";
+    color: white;
+}
+
+/* Debug DIV */
+.debug-div
+{
+    background-color: white;
+}
+
+
+
+/* 弹窗 */
+.alert
+{
+    font-size: 30px;
+}

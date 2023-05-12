@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 必须的CSS -->
+    <link href="./CSS/system.css" rel="stylesheet" type="text/css">
+    <link href="./CSS/guide-style.css" rel="stylesheet" type="text/css">
+    <link href="./CSS/below.css" rel="stylesheet" type="text/css">
+    <link href="./CSS/pictures.css" rel="stylesheet" type="text/css">
+    <!-- 本页区域需要的css -->
+    <link href="./CSS/main-index.css" rel="stylesheet" type="text/css">
+
+    <script src="./Script/feedback.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- 导航栏部分↓ -->
+    <div class="div-guide1-lv1">
+        <div class="default-position-1 div-guide1-lv2">
+            <a href="main-index.html" data-image-width="192" data-image-height="64" title="YuanMeng Game Club">
+                <img src="./Pictures/Logo/Logo_384x128.png" class="img-center img-logo-main">
+            </a>
+            <ul class="div-guide1-menu">
+                <li><a class="t1-zh text-guide1" href="main-about.html">关于我们</a></li>
+                <li><a class="t1-zh text-guide1" href="main-news.html">新闻栏目</a></li>
+                <li><a class="t1-zh text-guide1" href="main-activity.html">社区活动</a></li>
+                <li><a class="t1-zh text-guide1" onclick="Expect()">板块导航</a></li>
+                <li><a class="t1-zh text-guide1" href="main-join.html">加入我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 主页图片部分 -->
+    <div class="img-center div-main-index-main">
+    </div>
+
+    
+    <!-- 最新资讯 -->
+    <div class="div-main-index-news-lv1">
+        <div class="default-position-1 div-main-index-news-lv2"><!-- 自适应中间 -->
+            <p class="t1-zh text-fix1 main-index-h1">最新资讯</p>
+            <!-- 内容↓ -->
+            <div class="default-position-1 div-main-index-news-lv3"><!-- 内容区域360*360 -->
+                <!-- 区域1 -->
+                <div class="div-main-index-news-lv4 div-main-index-news-left">
+                    <div class=" main-index-news-area debug-div img-center p-main-index-1l">
+                        <p class="t1-zh text-fix1 main-index-news-area-h1" style="color:white">Texas DLC 正式发布</p>
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-news-area-h2">德克萨斯州DLC现已在Steam上市</p>
+                </div>
+                <!-- 区域2 -->
+                <div class="div-main-index-news-lv4 div-main-index-news-center">
+                    <div class="main-index-news-area debug-div img-center p-main-index-1m">
+                        <p class="t1-zh text-fix1 main-index-news-area-h1" style="color:white">道路和车辆开发日记</p>
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-news-area-h2">道路和车辆开发日记:免费内容和补丁说明</p>
+                </div>
+                <!-- 区域3 -->
+                <div class="div-main-index-news-lv4 div-main-index-news-right">
+                    <div class="main-index-news-area debug-div img-center p-main-index-1r">
+                        <p class="t1-zh text-fix1 main-index-news-area-h1" style="color:white">星际公民周更内容</p>
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-news-area-h2">2022-11/14 我们更新了什么</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 最新活动 -->
+    <div class="div-main-index-activity-lv1">
+        <div class="default-position-1 div-main-index-activity-lv2"><!-- 自适应中间 -->
+            <p class="t1-zh text-fix1 main-index-h1">最新活动</p>
+            <!-- 内容↓ -->
+            <div class="default-position-1 div-main-index-activity-lv3"><!-- 内容区域540*400 -->
+                <!-- 区域1 -->
+                <div class="div-main-index-activity-lv4 div-main-index-activity-left">
+                    <div class=" main-index-activity-area debug-div img-center p-main-index-2l">
+                        <p class="t1-zh text-fix1 main-index-activity-area-h1" style="color:white">自由如风，遨游欧洲</p>
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-activity-area-h2">开放联运正在进行中，欢迎您的加入</p>
+                </div>
+                <!-- 区域2 -->
+                <div class="div-main-index-activity-lv4 div-main-index-activity-right">
+                    <div class="main-index-activity-area debug-div img-center p-main-index-2r">
+                        <p class="t1-zh text-fix1 main-index-activity-area-h1" style="color:white">开辟新地，筑城家园</p>
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-activity-area-h2">我们正在征集出色的风景照片，分享你的成果吧</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 关于我们 -->
+    <div class="div-main-index-about-lv1">
+        <div class="default-position-1 div-main-index-about-lv2"><!-- 自适应中间 -->
+            <p class="t1-zh text-fix1 main-index-h1">关于我们</p>
+            <!-- 内容↓ -->
+            <div class="default-position-1 div-main-index-about-lv3"><!-- 内容区域360*360 -->
+                <!-- 区域1 -->
+                <div class="div-main-index-about-lv4 div-main-index-about-left1">
+                    <div class=" main-index-about-area img-center p-main-index-31">
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-about-area-h2">加入QQ群</p>
+                </div>
+                <!-- 区域2 -->
+                <div class="div-main-index-about-lv4 div-main-index-about-left2">
+                    <div class="main-index-about-area img-center p-main-index-32">
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-about-area-h2">加入Discord</p>
+                </div>
+                <!-- 区域3 -->
+                <div class="div-main-index-about-lv4 div-main-index-about-left2">
+                    <div class="main-index-about-area img-center p-main-index-33">
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-about-area-h2">车队2024重启计划</p>
+                </div>
+                <!-- 区域4 -->
+                <div class="div-main-index-about-lv4 div-main-index-about-left2">
+                    <div class="main-index-about-area img-center p-main-index-34">
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-about-area-h2">观看我们的B站视频</p>
+                </div>
+                <!-- 区域5 -->
+                <div class="div-main-index-about-lv4 div-main-index-about-right">
+                    <div class="main-index-about-area img-center p-main-index-35">
+                    </div>
+                    <p class="t1-zh text-fix1 main-index-about-area-h2">观看我们的YouTube视频</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 合作伙伴 -->
+    <div class="div-main-index-cooper-lv1">
+        <div class="default-position-1 div-main-index-cooper-lv2">
+            <p class="t1-zh text-fix1 div-main-index-cooper-h1">合作伙伴</p>
+            <div class="main-index-cooper-p1 img-center p-main-index-41">
+            </div>
+            <div class="main-index-cooper-p1 img-center p-main-index-42">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 底部内容 -->
+    <footer class="default-position-1 div-below-lv1">
+        <p class="default-position-1 t1-zh-nb text-below">Copyright ©2022 YuanMeng Game Simulation Club.</p>
+        <p class="default-position-1 t1-zh-nb text-below">All Rights Reserved.</p>
+        <p class="default-position-1 t1-zh-nb text-below">Designed by Jason</p>
+    </footer>
+</body>
+</html>
